@@ -13,7 +13,7 @@ git add *
 git commit  -m  'copy 2 ftp'
 
 ## if the name is already exists, you need to delete it to initialize
-#git remote rm BGI-GTD
+git remote rm BGI-CP
 
 ## push 
 git remote add BGI-CP git@github.com:taylortianwei/Copy2FTP.git
