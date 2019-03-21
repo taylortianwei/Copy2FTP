@@ -4,17 +4,17 @@
 #ssh -T git@github.com
 
 ## Enters the folder you want to push to Github, generated your local database, input your github id and email to the database
-git init
-git config user.name "taylortianwei"
-git config user.email "tianwei@genomics.cn"
+#git init
+#git config user.name "taylortianwei"
+#git config user.email "tianwei@genomics.cn"
 
 ## add the files you want to push to github
 git add *
 git commit  -m  'copy 2 ftp'
 
 ## if the name is already exists, you need to delete it to initialize
-git remote rm BGI-CP
+#git remote rm BGI-CP
 
 ## push 
-git remote add BGI-CP git@github.com:taylortianwei/Copy2FTP.git
+#git remote add BGI-CP git@github.com:taylortianwei/Copy2FTP.git
 git push -f -u BGI-CP master

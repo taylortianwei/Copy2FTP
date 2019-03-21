@@ -17,3 +17,4 @@ while(<IN>){
 	#print "$tocheck/$a[1]/$a[5]\_1.fq.gz\n";
 	print "error copy: $a[5]\n" unless -e "$tocheck/$a[1]/$a[5]\_1.fq.gz";
 }
+print "All Good!!!\n";
