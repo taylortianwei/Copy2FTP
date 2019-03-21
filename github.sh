@@ -5,12 +5,12 @@
 
 ## Enters the folder you want to push to Github, generated your local database, input your github id and email to the database
 git init
-#git config user.name "taylortianwei"
-#git config user.email "tianwei@genomics.cn"
+git config user.name "taylortianwei"
+git config user.email "tianwei@genomics.cn"
 
 ## add the files you want to push to github
 git add *
-git commit  -m  'generate tracking document'
+git commit  -m  'copy 2 ftp'
 
 ## if the name is already exists, you need to delete it to initialize
 #git remote rm BGI-GTD
