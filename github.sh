@@ -16,5 +16,5 @@ git commit  -m  'generate tracking document'
 #git remote rm BGI-GTD
 
 ## push 
-git remote add BGI-CP git@github.com:taylortianwei/Generate_HTML_Tracking.git
+git remote add BGI-CP git@github.com:taylortianwei/Copy2FTP.git
 git push -f -u BGI-CP master
